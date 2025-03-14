@@ -1,0 +1,27 @@
+{
+  "spreadsheet": {
+    "spreadsheet_id": "1ASNRCmXsBDL1j3Gj7-RpTeM4wfKZm9Z8C-eJ_cSLvaU",
+    "auto_import": false,
+    "import_frequency": "daily"
+  },
+  "excel": {
+    "auto_import": false,
+    "import_frequency": "daily",
+    "last_import_directory": ""
+  },
+  "notifications": {
+    "email_notifications": false,
+    "app_notifications": true,
+    "email_address": ""
+  },
+  "ui": {
+    "theme": "light",
+    "items_per_page": 10,
+    "default_sort": "created_at"
+  },
+  "backup": {
+    "auto_backup": false,
+    "backup_frequency": "weekly",
+    "backup_directory": ""
+  }
+}

@@ -1,0 +1,6 @@
+データベース内のテーブル一覧:
+applicant
+job
+employee
+phone_call
+interview
