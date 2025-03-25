@@ -17,8 +17,7 @@ function ApplicantsList() {
   const fetchApplicants = async () => {
     try {
       setLoading(true);
-      // APIサーバーはポート5001で稼働しているため、URLを修正
-      const response = await fetch('http://localhost:5001/api/applicants');
+      const response = await fetch('/api/applicants');
       if (!response.ok) {
         throw new Error(`API error: ${response.status}`);
       }

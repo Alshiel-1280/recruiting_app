@@ -36,7 +36,8 @@ function ApplicantDetail() {
 
   useEffect(() => {
     // Axiosのグローバル設定（コンポーネント初期化時に一度だけ設定）
-    axios.defaults.baseURL = 'http://localhost:5001';
+     // baseURLを空文字列に設定して相対パスを使用
+    axios.defaults.baseURL = '';  // 空の文字列に設定
     axios.defaults.headers.common['Content-Type'] = 'application/json';
     axios.defaults.headers.common['Accept'] = 'application/json';
 

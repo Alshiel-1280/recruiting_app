@@ -32,7 +32,7 @@ app.config['GOOGLE_MAPS_API_KEY'] = os.environ.get('GOOGLE_MAPS_API_KEY')
 
 # アプリケーションの初期化
 app = Flask(__name__)
-
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 # 環境設定
 ENV = os.environ.get('FLASK_ENV', 'development')
 DEBUG = ENV == 'development'
